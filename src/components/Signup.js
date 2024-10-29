@@ -34,7 +34,7 @@ function Signup() {
       .then((response) => {
         setSignupSuccess(true);
         setLoading(false);
-        setTimeout(() => navigate("/login"), 2000);
+        setTimeout(() => navigate("/login"), 1000);
       })
       .catch((error) => {
         setLoading(false);
